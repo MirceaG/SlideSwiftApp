@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C3D54281D22B0E000B8C6A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D54271D22B0E000B8C6A7 /* AppDelegate.swift */; };
+		6C3D542A1D22B0E000B8C6A7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D54291D22B0E000B8C6A7 /* MainViewController.swift */; };
+		6C3D542D1D22B0E000B8C6A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C3D542B1D22B0E000B8C6A7 /* Main.storyboard */; };
+		6C3D542F1D22B0E000B8C6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C3D542E1D22B0E000B8C6A7 /* Assets.xcassets */; };
+		6C3D54321D22B0E000B8C6A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C3D54301D22B0E000B8C6A7 /* LaunchScreen.storyboard */; };
+		6C3D543D1D22B0E000B8C6A7 /* SlideSwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D543C1D22B0E000B8C6A7 /* SlideSwiftAppTests.swift */; };
+		6C3D54491D22B14C00B8C6A7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C3D54481D22B14C00B8C6A7 /* Podfile */; };
+		6C3D54501D22B1A500B8C6A7 /* TableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C3D544D1D22B1A500B8C6A7 /* TableViewHeader.xib */; };
+		6C3D54551D22B1DE00B8C6A7 /* AutoLayoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D54521D22B1DE00B8C6A7 /* AutoLayoutExtension.swift */; };
+		6C3D54561D22B1DE00B8C6A7 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D54531D22B1DE00B8C6A7 /* BaseView.swift */; };
+		6C3D54581D22B2B400B8C6A7 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C3D54571D22B2B400B8C6A7 /* MainViewController.xib */; };
+		6C3D545C1D22B31400B8C6A7 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D545B1D22B31400B8C6A7 /* LeftViewController.swift */; };
+		6C3D545E1D22B32100B8C6A7 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C3D545D1D22B32100B8C6A7 /* LeftViewController.xib */; };
+		6C3D54601D22B6B800B8C6A7 /* TableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D545F1D22B6B800B8C6A7 /* TableViewHeader.swift */; };
+		6C3D54641D22BAC200B8C6A7 /* TableViewListDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D54631D22BAC200B8C6A7 /* TableViewListDatasource.swift */; };
+		6C3D54671D22C16D00B8C6A7 /* TableViewItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C3D54661D22C16D00B8C6A7 /* TableViewItems.json */; };
+		6C3D546B1D22C1BB00B8C6A7 /* LeftViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D546A1D22C1BB00B8C6A7 /* LeftViewControllerViewModel.swift */; };
+		6C3D546D1D22CAFF00B8C6A7 /* shopingCart.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C3D546C1D22CAFF00B8C6A7 /* shopingCart.png */; };
+		6FB91616B608AB44AD50FCE8 /* Pods_SlideSwiftAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F5886949BC81ADB07506D5 /* Pods_SlideSwiftAppTests.framework */; };
+		F6E26B55144C18D588C053A5 /* Pods_SlideSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4774BE6BA74BA26F2B8B8277 /* Pods_SlideSwiftApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C3D54391D22B0E000B8C6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C3D541C1D22B0E000B8C6A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C3D54231D22B0E000B8C6A7;
+			remoteInfo = SlideSwiftApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A4A4F8096A40E40D4B598CF /* Pods-SlideSwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideSwiftApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlideSwiftApp/Pods-SlideSwiftApp.release.xcconfig"; sourceTree = "<group>"; };
+		4774BE6BA74BA26F2B8B8277 /* Pods_SlideSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlideSwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3D54241D22B0E000B8C6A7 /* SlideSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3D54271D22B0E000B8C6A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C3D54291D22B0E000B8C6A7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6C3D542C1D22B0E000B8C6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C3D542E1D22B0E000B8C6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C3D54311D22B0E000B8C6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C3D54331D22B0E000B8C6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C3D54381D22B0E000B8C6A7 /* SlideSwiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideSwiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3D543C1D22B0E000B8C6A7 /* SlideSwiftAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideSwiftAppTests.swift; sourceTree = "<group>"; };
+		6C3D543E1D22B0E000B8C6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C3D54481D22B14C00B8C6A7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6C3D544D1D22B1A500B8C6A7 /* TableViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewHeader.xib; sourceTree = "<group>"; };
+		6C3D54521D22B1DE00B8C6A7 /* AutoLayoutExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayoutExtension.swift; sourceTree = "<group>"; };
+		6C3D54531D22B1DE00B8C6A7 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		6C3D54541D22B1DE00B8C6A7 /* SlideSwiftApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SlideSwiftApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		6C3D54571D22B2B400B8C6A7 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		6C3D545B1D22B31400B8C6A7 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		6C3D545D1D22B32100B8C6A7 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		6C3D545F1D22B6B800B8C6A7 /* TableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHeader.swift; sourceTree = "<group>"; };
+		6C3D54631D22BAC200B8C6A7 /* TableViewListDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewListDatasource.swift; sourceTree = "<group>"; };
+		6C3D54661D22C16D00B8C6A7 /* TableViewItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TableViewItems.json; sourceTree = "<group>"; };
+		6C3D546A1D22C1BB00B8C6A7 /* LeftViewControllerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewControllerViewModel.swift; sourceTree = "<group>"; };
+		6C3D546C1D22CAFF00B8C6A7 /* shopingCart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopingCart.png; sourceTree = "<group>"; };
+		6CF9AEB484F3F3E26215E2B4 /* Pods-SlideSwiftAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideSwiftAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlideSwiftAppTests/Pods-SlideSwiftAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C17E33A1AA76682B05998FF7 /* Pods-SlideSwiftAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideSwiftAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlideSwiftAppTests/Pods-SlideSwiftAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9F5886949BC81ADB07506D5 /* Pods_SlideSwiftAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlideSwiftAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D091294A059CE3F7BBCC5E66 /* Pods-SlideSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideSwiftApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlideSwiftApp/Pods-SlideSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C3D54211D22B0E000B8C6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E26B55144C18D588C053A5 /* Pods_SlideSwiftApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3D54351D22B0E000B8C6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB91616B608AB44AD50FCE8 /* Pods_SlideSwiftAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A913415C4A5AE45EDC82B06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D091294A059CE3F7BBCC5E66 /* Pods-SlideSwiftApp.debug.xcconfig */,
+				2A4A4F8096A40E40D4B598CF /* Pods-SlideSwiftApp.release.xcconfig */,
+				C17E33A1AA76682B05998FF7 /* Pods-SlideSwiftAppTests.debug.xcconfig */,
+				6CF9AEB484F3F3E26215E2B4 /* Pods-SlideSwiftAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C3D541B1D22B0E000B8C6A7 = {
+			isa = PBXGroup;
+			children = (
+				6C3D54481D22B14C00B8C6A7 /* Podfile */,
+				6C3D54261D22B0E000B8C6A7 /* SlideSwiftApp */,
+				6C3D543B1D22B0E000B8C6A7 /* SlideSwiftAppTests */,
+				6C3D54251D22B0E000B8C6A7 /* Products */,
+				6A913415C4A5AE45EDC82B06 /* Pods */,
+				745EC91B55897E69E3DBA49A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C3D54251D22B0E000B8C6A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C3D54241D22B0E000B8C6A7 /* SlideSwiftApp.app */,
+				6C3D54381D22B0E000B8C6A7 /* SlideSwiftAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C3D54261D22B0E000B8C6A7 /* SlideSwiftApp */ = {
+			isa = PBXGroup;
+			children = (
+				6C3D54471D22B0E500B8C6A7 /* Classes */,
+				6C3D54511D22B1C300B8C6A7 /* Utils */,
+				6C3D54651D22BEBE00B8C6A7 /* Resources */,
+				6C3D542B1D22B0E000B8C6A7 /* Main.storyboard */,
+				6C3D542E1D22B0E000B8C6A7 /* Assets.xcassets */,
+				6C3D54301D22B0E000B8C6A7 /* LaunchScreen.storyboard */,
+				6C3D54331D22B0E000B8C6A7 /* Info.plist */,
+			);
+			path = SlideSwiftApp;
+			sourceTree = "<group>";
+		};
+		6C3D543B1D22B0E000B8C6A7 /* SlideSwiftAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C3D543C1D22B0E000B8C6A7 /* SlideSwiftAppTests.swift */,
+				6C3D543E1D22B0E000B8C6A7 /* Info.plist */,
+			);
+			path = SlideSwiftAppTests;
+			sourceTree = "<group>";
+		};
+		6C3D54471D22B0E500B8C6A7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6C3D54611D22B78B00B8C6A7 /* SliderLeftViewController */,
+				6C3D544A1D22B17E00B8C6A7 /* Views */,
+				6C3D54271D22B0E000B8C6A7 /* AppDelegate.swift */,
+				6C3D54291D22B0E000B8C6A7 /* MainViewController.swift */,
+				6C3D54571D22B2B400B8C6A7 /* MainViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6C3D544A1D22B17E00B8C6A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C3D54511D22B1C300B8C6A7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6C3D54521D22B1DE00B8C6A7 /* AutoLayoutExtension.swift */,
+				6C3D54531D22B1DE00B8C6A7 /* BaseView.swift */,
+				6C3D54541D22B1DE00B8C6A7 /* SlideSwiftApp-Bridging-Header.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6C3D54611D22B78B00B8C6A7 /* SliderLeftViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C3D54621D22B7F300B8C6A7 /* TableViewList */,
+				6C3D545B1D22B31400B8C6A7 /* LeftViewController.swift */,
+				6C3D545D1D22B32100B8C6A7 /* LeftViewController.xib */,
+				6C3D54631D22BAC200B8C6A7 /* TableViewListDatasource.swift */,
+				6C3D546A1D22C1BB00B8C6A7 /* LeftViewControllerViewModel.swift */,
+			);
+			path = SliderLeftViewController;
+			sourceTree = "<group>";
+		};
+		6C3D54621D22B7F300B8C6A7 /* TableViewList */ = {
+			isa = PBXGroup;
+			children = (
+				6C3D544D1D22B1A500B8C6A7 /* TableViewHeader.xib */,
+				6C3D545F1D22B6B800B8C6A7 /* TableViewHeader.swift */,
+			);
+			path = TableViewList;
+			sourceTree = "<group>";
+		};
+		6C3D54651D22BEBE00B8C6A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C3D546C1D22CAFF00B8C6A7 /* shopingCart.png */,
+				6C3D54661D22C16D00B8C6A7 /* TableViewItems.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		745EC91B55897E69E3DBA49A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4774BE6BA74BA26F2B8B8277 /* Pods_SlideSwiftApp.framework */,
+				C9F5886949BC81ADB07506D5 /* Pods_SlideSwiftAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C3D54231D22B0E000B8C6A7 /* SlideSwiftApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C3D54411D22B0E000B8C6A7 /* Build configuration list for PBXNativeTarget "SlideSwiftApp" */;
+			buildPhases = (
+				B2FD63C607EDBC6370B902D8 /* [CP] Check Pods Manifest.lock */,
+				6C3D54201D22B0E000B8C6A7 /* Sources */,
+				6C3D54211D22B0E000B8C6A7 /* Frameworks */,
+				6C3D54221D22B0E000B8C6A7 /* Resources */,
+				D561B7C9EE67C669E9E8C5FE /* [CP] Embed Pods Frameworks */,
+				E2B170D20C6985FA28BB512E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideSwiftApp;
+			productName = SlideSwiftApp;
+			productReference = 6C3D54241D22B0E000B8C6A7 /* SlideSwiftApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C3D54371D22B0E000B8C6A7 /* SlideSwiftAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C3D54441D22B0E000B8C6A7 /* Build configuration list for PBXNativeTarget "SlideSwiftAppTests" */;
+			buildPhases = (
+				F7AE9F12D22F7843E80DE29F /* [CP] Check Pods Manifest.lock */,
+				6C3D54341D22B0E000B8C6A7 /* Sources */,
+				6C3D54351D22B0E000B8C6A7 /* Frameworks */,
+				6C3D54361D22B0E000B8C6A7 /* Resources */,
+				6E686F916763FAD6704C5E84 /* [CP] Embed Pods Frameworks */,
+				86E69FFDE5BB951DD945E5DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C3D543A1D22B0E000B8C6A7 /* PBXTargetDependency */,
+			);
+			name = SlideSwiftAppTests;
+			productName = SlideSwiftAppTests;
+			productReference = 6C3D54381D22B0E000B8C6A7 /* SlideSwiftAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C3D541C1D22B0E000B8C6A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mircea Grecu";
+				TargetAttributes = {
+					6C3D54231D22B0E000B8C6A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6C3D54371D22B0E000B8C6A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6C3D54231D22B0E000B8C6A7;
+					};
+				};
+			};
+			buildConfigurationList = 6C3D541F1D22B0E000B8C6A7 /* Build configuration list for PBXProject "SlideSwiftApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C3D541B1D22B0E000B8C6A7;
+			productRefGroup = 6C3D54251D22B0E000B8C6A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C3D54231D22B0E000B8C6A7 /* SlideSwiftApp */,
+				6C3D54371D22B0E000B8C6A7 /* SlideSwiftAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C3D54221D22B0E000B8C6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3D54501D22B1A500B8C6A7 /* TableViewHeader.xib in Resources */,
+				6C3D545E1D22B32100B8C6A7 /* LeftViewController.xib in Resources */,
+				6C3D546D1D22CAFF00B8C6A7 /* shopingCart.png in Resources */,
+				6C3D54321D22B0E000B8C6A7 /* LaunchScreen.storyboard in Resources */,
+				6C3D54671D22C16D00B8C6A7 /* TableViewItems.json in Resources */,
+				6C3D542F1D22B0E000B8C6A7 /* Assets.xcassets in Resources */,
+				6C3D54491D22B14C00B8C6A7 /* Podfile in Resources */,
+				6C3D54581D22B2B400B8C6A7 /* MainViewController.xib in Resources */,
+				6C3D542D1D22B0E000B8C6A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3D54361D22B0E000B8C6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E686F916763FAD6704C5E84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideSwiftAppTests/Pods-SlideSwiftAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86E69FFDE5BB951DD945E5DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideSwiftAppTests/Pods-SlideSwiftAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2FD63C607EDBC6370B902D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D561B7C9EE67C669E9E8C5FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideSwiftApp/Pods-SlideSwiftApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2B170D20C6985FA28BB512E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideSwiftApp/Pods-SlideSwiftApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7AE9F12D22F7843E80DE29F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C3D54201D22B0E000B8C6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3D54551D22B1DE00B8C6A7 /* AutoLayoutExtension.swift in Sources */,
+				6C3D54561D22B1DE00B8C6A7 /* BaseView.swift in Sources */,
+				6C3D545C1D22B31400B8C6A7 /* LeftViewController.swift in Sources */,
+				6C3D542A1D22B0E000B8C6A7 /* MainViewController.swift in Sources */,
+				6C3D54281D22B0E000B8C6A7 /* AppDelegate.swift in Sources */,
+				6C3D54641D22BAC200B8C6A7 /* TableViewListDatasource.swift in Sources */,
+				6C3D546B1D22C1BB00B8C6A7 /* LeftViewControllerViewModel.swift in Sources */,
+				6C3D54601D22B6B800B8C6A7 /* TableViewHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3D54341D22B0E000B8C6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3D543D1D22B0E000B8C6A7 /* SlideSwiftAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C3D543A1D22B0E000B8C6A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C3D54231D22B0E000B8C6A7 /* SlideSwiftApp */;
+			targetProxy = 6C3D54391D22B0E000B8C6A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C3D542B1D22B0E000B8C6A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3D542C1D22B0E000B8C6A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C3D54301D22B0E000B8C6A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3D54311D22B0E000B8C6A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C3D543F1D22B0E000B8C6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "SlideSwiftApp/Utils/SlideSwiftApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C3D54401D22B0E000B8C6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C3D54421D22B0E000B8C6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D091294A059CE3F7BBCC5E66 /* Pods-SlideSwiftApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlideSwiftApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Company.SlideSwiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C3D54431D22B0E000B8C6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4A4F8096A40E40D4B598CF /* Pods-SlideSwiftApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlideSwiftApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Company.SlideSwiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C3D54451D22B0E000B8C6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17E33A1AA76682B05998FF7 /* Pods-SlideSwiftAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlideSwiftAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Company.SlideSwiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideSwiftApp.app/SlideSwiftApp";
+			};
+			name = Debug;
+		};
+		6C3D54461D22B0E000B8C6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF9AEB484F3F3E26215E2B4 /* Pods-SlideSwiftAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlideSwiftAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Company.SlideSwiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideSwiftApp.app/SlideSwiftApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C3D541F1D22B0E000B8C6A7 /* Build configuration list for PBXProject "SlideSwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3D543F1D22B0E000B8C6A7 /* Debug */,
+				6C3D54401D22B0E000B8C6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C3D54411D22B0E000B8C6A7 /* Build configuration list for PBXNativeTarget "SlideSwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3D54421D22B0E000B8C6A7 /* Debug */,
+				6C3D54431D22B0E000B8C6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C3D54441D22B0E000B8C6A7 /* Build configuration list for PBXNativeTarget "SlideSwiftAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3D54451D22B0E000B8C6A7 /* Debug */,
+				6C3D54461D22B0E000B8C6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C3D541C1D22B0E000B8C6A7 /* Project object */;
+}

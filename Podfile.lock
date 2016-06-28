@@ -1,0 +1,15 @@
+PODS:
+  - PureLayout (3.0.2)
+  - SlideMenuControllerSwift (2.2.0)
+
+DEPENDENCIES:
+  - PureLayout
+  - SlideMenuControllerSwift
+
+SPEC CHECKSUMS:
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SlideMenuControllerSwift: 16dac00b1aaad153e64fffb5d6969ab31ad88372
+
+PODFILE CHECKSUM: 216db808d710720ed12590344db4fc3a9060aaae
+
+COCOAPODS: 1.0.1

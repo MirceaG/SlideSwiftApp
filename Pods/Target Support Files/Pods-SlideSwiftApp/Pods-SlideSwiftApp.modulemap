@@ -1,0 +1,6 @@
+framework module Pods_SlideSwiftApp {
+  umbrella header "Pods-SlideSwiftApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

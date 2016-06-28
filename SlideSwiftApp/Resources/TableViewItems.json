@@ -1,0 +1,10 @@
+{
+	"images" : [
+		{
+			"imageName" : "shopingCart"
+		}
+	],
+	"description" : [{
+			"text" : "Shoping cart"
+	}]
+}
