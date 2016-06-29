@@ -28,6 +28,11 @@ class LeftViewController: UIViewController {
         self.tableViewList.dataSource = tableViewDatasource
     }
     
+    func registerCell() {
+        let cellNib = UINib(nibName: "LeftTableViewCell", bundle: nil)
+        self.tableViewList.registerNib(cellNib, forCellReuseIdentifier: LeftTableViewCell.cellIdentifier)
+    }
+    
     func createModel() -> LeftViewControllerViewModel {
         return LeftViewControllerViewModel(withJsonFile: "TableViewItems")
     }
