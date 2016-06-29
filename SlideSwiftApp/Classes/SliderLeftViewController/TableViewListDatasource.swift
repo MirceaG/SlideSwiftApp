@@ -8,19 +8,23 @@
 
 import Foundation
 
-//class TableViewListDatasource: NSObject, UITableViewDataSource {
-//    
-//    //var viewModel
-//    
-//    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        
-//    }
-//    
-//    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-//        
-//    }
-//    
-//    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-//        
-//    }
-//}
+class TableViewListDatasource: NSObject, UITableViewDataSource {
+    
+    var viewModel: LeftViewControllerViewModel
+    
+    init(viewModel: LeftViewControllerViewModel) {
+        self.viewModel = viewModel
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return viewModel.numberOfItems()
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        
+    }
+}

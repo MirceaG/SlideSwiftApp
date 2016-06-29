@@ -12,23 +12,24 @@ import UIKit
 class LeftViewController: UIViewController {
     
     @IBOutlet var tableViewList: UITableView!
-    //var tableViewDatasource: TableViewListDatasource!
+    var viewModel: LeftViewControllerViewModel?
+    var tableViewDatasource: TableViewListDatasource!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        viewModel = createModel()
         commonInit()
     }
     
     func commonInit() {
         self.createModel()
-//        tableViewDatasource = TableViewListDatasource()
-//        self.tableViewList.delegate = self
-//        self.tableViewList.dataSource = tableViewDatasource
+        tableViewDatasource = TableViewListDatasource(viewModel: self.viewModel!)
+        self.tableViewList.delegate = self
+        self.tableViewList.dataSource = tableViewDatasource
     }
     
-    func createModel() {
-        var model = LeftViewControllerViewModel(withJsonFile: "TableViewItems")
-        
+    func createModel() -> LeftViewControllerViewModel {
+        return LeftViewControllerViewModel(withJsonFile: "TableViewItems")
     }
 }
 

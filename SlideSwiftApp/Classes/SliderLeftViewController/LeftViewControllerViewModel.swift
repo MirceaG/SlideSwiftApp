@@ -7,40 +7,50 @@
 //
 
 import Foundation
+import EVReflection
 
 class LeftViewControllerViewModel {
     
-    typealias imagesArray = [String: String]
+    var listItems: [ListItem] = []
     
     init(withJsonFile: String) {
-        self.readJson(withJsonFile)
+        listItems = self.readJson(withJsonFile)
     }
     
-    func readJson(withName: String) {
-        //var json = NSJSONSerialization.dataWithJSONObject(JSONData, options: <#T##NSJSONWritingOptions#>)
-//        NSArray *json = NSJSONSerialization() [NSJSONSerialization JSONObjectWithData:JSONData options:kNilOptions error:nil];
-//        
+    func readJson(withName: String) -> [ListItem] {
         if let path = NSBundle.mainBundle().pathForResource(withName, ofType: "json") {
             do {
                 let data = try NSData(contentsOfFile: path, options: .DataReadingMappedIfSafe) as? NSData
                 if data != nil {
-                    var json: NSDictionary = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as! NSDictionary
-                    if let images: NSArray = json["images"] as? [imagesArray] {
-//                        for image in imagesArray {
-//                            var x = image["imageName"]
-//                        }
-                    }
-                    
-                    if let descriptions: NSArray = json["description"] as? [imagesArray] {
-                        var x = 1
+                    if let data = data {
+                        let jsonString = String(data: data, encoding: NSUTF8StringEncoding)
+                        if let jsonString = jsonString {
+                            let items = [ListItem](json: jsonString)
+                            return items
+                        }
                     }
                 }
             } catch {
-                
             }
-            
-                
         }
-        
+     return []
     }
+    
+// MARK: - viewModel helper functions
+    
+    func numberOfItems() -> Int {
+        return listItems.count
+    }
+    
+    func listItem(index: Int) -> ListItem {
+        return listItems[index]
+    }
+    
+}
+
+class ListItem: EVObject {
+    var imageName: String = ""
+    var descriptionText: String = ""
+    
+    
 }

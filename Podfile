@@ -7,6 +7,7 @@ target 'SlideSwiftApp' do
 
   pod 'PureLayout'
   pod 'SlideMenuControllerSwift'
+  pod 'EVReflection'
 
   target 'SlideSwiftAppTests' do
     inherit! :search_paths

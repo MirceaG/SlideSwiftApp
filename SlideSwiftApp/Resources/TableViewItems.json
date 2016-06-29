@@ -1,10 +1,6 @@
-{
-	"images" : [
-		{
-			"imageName" : "shopingCart"
-		}
-	],
-	"description" : [{
-			"text" : "Shoping cart"
-	}]
-}
+[{
+ "imageName" : "shopingCart",
+ "descriptionText" : "Shopping Cart"
+ 
+ }]
+
