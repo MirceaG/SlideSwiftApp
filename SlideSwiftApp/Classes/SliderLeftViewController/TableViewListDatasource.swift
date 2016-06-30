@@ -21,8 +21,10 @@ class TableViewListDatasource: NSObject, UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(LeftTableViewCell.cellIdentifier)
-        return cell!
+        let cell = tableView.dequeueReusableCellWithIdentifier(LeftTableViewCell.cellIdentifier) as! LeftTableViewCell
+        let listItem = viewModel.listItem(indexPath.row)
+        cell.configureCellWith(listItem.descriptionText, imagePath: listItem.imageName)
+        return cell
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {

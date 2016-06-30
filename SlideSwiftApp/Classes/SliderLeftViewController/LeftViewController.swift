@@ -23,6 +23,7 @@ class LeftViewController: UIViewController {
     
     func commonInit() {
         self.createModel()
+        self.registerCell()
         tableViewDatasource = TableViewListDatasource(viewModel: self.viewModel!)
         self.tableViewList.delegate = self
         self.tableViewList.dataSource = tableViewDatasource
@@ -40,5 +41,11 @@ class LeftViewController: UIViewController {
 
 
 extension LeftViewController: UITableViewDelegate {
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        let presentedViewController: InfoViewController = (mainStoryboard()?.instantiateViewControllerWithIdentifier("InfoViewController") as? InfoViewController)!
+        self.presentViewController(presentedViewController, animated: true, completion: nil)
+    }
     
 }

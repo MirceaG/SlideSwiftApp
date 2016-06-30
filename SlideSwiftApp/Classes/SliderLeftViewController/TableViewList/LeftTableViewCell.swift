@@ -11,5 +11,13 @@ import Foundation
 
 
 class LeftTableViewCell: UITableViewCell {
+    
     static let cellIdentifier = "ListCellIdentifier"
+    @IBOutlet var descriptionLabel: UILabel!
+    @IBOutlet var imageListItem: UIImageView!
+    
+    func configureCellWith(description: String, imagePath:String) {
+        self.descriptionLabel.text = description
+        self.imageListItem.image = UIImage(named: imagePath)
+    }
 }

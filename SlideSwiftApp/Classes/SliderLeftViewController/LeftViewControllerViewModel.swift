@@ -14,26 +14,7 @@ class LeftViewControllerViewModel {
     var listItems: [ListItem] = []
     
     init(withJsonFile: String) {
-        listItems = self.readJson(withJsonFile)
-    }
-    
-    func readJson(withName: String) -> [ListItem] {
-        if let path = NSBundle.mainBundle().pathForResource(withName, ofType: "json") {
-            do {
-                let data = try NSData(contentsOfFile: path, options: .DataReadingMappedIfSafe) as? NSData
-                if data != nil {
-                    if let data = data {
-                        let jsonString = String(data: data, encoding: NSUTF8StringEncoding)
-                        if let jsonString = jsonString {
-                            let items = [ListItem](json: jsonString)
-                            return items
-                        }
-                    }
-                }
-            } catch {
-            }
-        }
-     return []
+        listItems = readJson(withJsonFile)
     }
     
 // MARK: - viewModel helper functions
@@ -51,6 +32,5 @@ class LeftViewControllerViewModel {
 class ListItem: EVObject {
     var imageName: String = ""
     var descriptionText: String = ""
-    
     
 }

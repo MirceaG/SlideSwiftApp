@@ -24,5 +24,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Info View Controller-->
+        <scene sceneID="wef-Yv-4Dk">
+            <objects>
+                <viewController storyboardIdentifier="InfoViewController" id="vtp-9w-QE4" customClass="InfoViewController" customModule="SlideSwiftApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="2YY-7g-O1C"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g6d-VQ-9LX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1490" y="1131"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EAl-Er-BYc">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HUi-Qt-bqT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="w9T-Cd-Gn5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NrA-1s-sxB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vtp-9w-QE4" kind="relationship" relationship="rootViewController" id="ccF-aK-QTE"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="678" y="1131"/>
+        </scene>
     </scenes>
 </document>

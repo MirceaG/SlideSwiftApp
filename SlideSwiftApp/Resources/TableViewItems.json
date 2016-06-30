@@ -1,6 +1,9 @@
 [{
  "imageName" : "shopingCart",
  "descriptionText" : "Shopping Cart"
- 
+ },
+ {
+ "imageName" : "shopingCart",
+ "descriptionText" : "Shopping Cart"
  }]
 
